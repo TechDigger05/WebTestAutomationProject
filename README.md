@@ -3,7 +3,7 @@ This is a test project to demonstrate the implementation of page object model fr
 
 Steps to clone execute the tests:
 
-git clone https: WebTestAutomationProject
+git clone https: https://github.com/TechDigger05/WebTestAutomationProject.git
 
 cd WebTestAutomationProject
 
