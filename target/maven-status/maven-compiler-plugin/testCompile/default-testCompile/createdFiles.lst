@@ -1,0 +1,12 @@
+com\web\test\utils\WebElementUtils.class
+com\web\test\utils\DriverUtils.class
+pages\HomePage.class
+pages\ShopPage.class
+com\web\test\utils\AssertionUtils.class
+com\web\test\StepDefs\Hooks.class
+pages\CheckoutPage.class
+com\web\test\utils\ConfigUtils.class
+pages\WishlistPage.class
+com\web\test\TestRunner.class
+com\web\test\utils\CommonUtils.class
+com\web\test\StepDefs\WebAppTestSteps.class

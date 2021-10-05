@@ -1,0 +1,178 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12672191200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "1. Verify the Wishlist page",
+        "description": "",
+        "id": "to-verify-the-wishlist-and-shopping-cart-functionality-of-shopping-site.;1.-verify-the-wishlist-page",
+        "after": [
+          {
+            "result": {
+              "duration": 899469800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 445014100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Homepage of the application",
+            "match": {
+              "location": "WebAppTestSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33907656800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add four different products to my wish list",
+            "match": {
+              "location": "WebAppTestSteps.I_ADD_No_Of_Items_Different_Products_To_My_Wish_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6503704400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I view my wishlist table",
+            "match": {
+              "location": "WebAppTestSteps.I_View_My_Wishlist_Table()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80377600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I find total four products in my Wishlist",
+            "match": {
+              "location": "WebAppTestSteps.I_Find_Total_Four_Products_In_My_Wishlist()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7880466400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "2. Add and verify lowest price item to the cart",
+        "description": "",
+        "id": "to-verify-the-wishlist-and-shopping-cart-functionality-of-shopping-site.;2.-add-and-verify-lowest-price-item-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 882577800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12110800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on Homepage of the application",
+            "match": {
+              "location": "WebAppTestSteps.userIsOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13605500200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Search for lowest price product",
+            "match": {
+              "location": "WebAppTestSteps.I_Search_For_Lowest_Price_Product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13414501200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am able to add the lowest price item to my cart",
+            "match": {
+              "location": "WebAppTestSteps.I_Am_Able_To_Add_The_Lowest_Price_Item_To_My_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7268217800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am able to verify the item in my cart",
+            "match": {
+              "location": "WebAppTestSteps.I_Am_Able_To_Verify_The_Item_In_My_Cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify the Wishlist and Shopping cart functionality of shopping site.",
+    "description": "",
+    "id": "to-verify-the-wishlist-and-shopping-cart-functionality-of-shopping-site.",
+    "keyword": "Feature",
+    "uri": "Shopping.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@test"
+      }
+    ]
+  }
+]
